@@ -1,9 +1,12 @@
 package afornalik.goodslocator.mapper;
 
+import org.springframework.stereotype.Component;
+
 import afornalik.goodslocator.exception.StorageRackIdException;
 import afornalik.goodslocator.model.StorageRack;
 import afornalik.goodslocator.modeldto.StorageRackDTO;
 
+@Component
 public class StorageRackMapper {
 
 	public StorageRack convertToEntity(StorageRackDTO dto) {
