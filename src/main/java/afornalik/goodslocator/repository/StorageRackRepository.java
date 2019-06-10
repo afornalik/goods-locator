@@ -8,9 +8,5 @@ import afornalik.goodslocator.model.StorageRack;
 
 @Repository
 public interface StorageRackRepository extends JpaRepository<StorageRack, Integer>{
-	
-
-
-	
-	
+			
 }
